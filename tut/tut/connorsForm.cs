@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace tut
 {
-    public partial class Form1 : Form
+    public partial class connorsForm : Form
     {
-        public Form1()
+        public connorsForm()
         {
             InitializeComponent();
-        }
-
-        private void connor_Click(object sender, EventArgs e)
-        {
-            connorsForm frm = new connorsForm();
-            frm.Show();
         }
     }
 }
